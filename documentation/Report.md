@@ -7,7 +7,7 @@
 1. Выдача кредита по данным банковской карты
 
 Сначала было проведено исследовательское (ручное) тестирование для ознакомления с проектом.  
-Затем были созданы авто-тесты, исходя из **[Плана](https://github.com/Alex-stagemaster/QA_Diploma/blob/master/documentation/plan.md)**.
+Затем были созданы авто-тесты, исходя из **[Плана](https://github.com/Alex-stagemaster/QA_Diploma/blob/master/documentation/plan.md)**
 
 **Тестирование было проведено с использованием двух баз данных - MySQL и PostgreSQL.**
 
@@ -17,6 +17,7 @@
 
 **Отчет Allure:**
 
+![image](https://user-images.githubusercontent.com/78262386/206032137-82a5a11a-7e13-4aab-8e1a-deb042cdb1fc.png)
 
 
 
