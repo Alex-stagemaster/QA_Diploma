@@ -4,6 +4,7 @@ import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.*;
+import ru.netology.data.DataHelper;
 import ru.netology.page.PurchasePage;
 
 import java.util.concurrent.TimeUnit;
@@ -29,7 +30,7 @@ public class TourPurchaseTest {
     @AfterAll
     public static void tearDownAll() {
         SelenideLogger.removeListener("allure");
-        databaseCleanUp();
+        DataHelper.databaseCleanUp();
     }
 
     @Nested
